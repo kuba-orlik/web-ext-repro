@@ -1,1 +1,1 @@
-See [test-build.sh](./blob/master/test-build.sh) for details
+See [test-build.sh](./test-build.sh) for details

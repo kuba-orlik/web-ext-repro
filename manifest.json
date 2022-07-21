@@ -1,0 +1,30 @@
+{
+  "description": "Hello",
+  "manifest_version": 2,
+  "name": "hello",
+  "short_name": "hello",
+  "version": "0.1.8",
+  "author": "Kuba Orlik",
+  "homepage_url": "https://www.example.com",
+  "background": {
+    "scripts": ["index.js"]
+  },
+  "commands": {
+    "_execute_sidebar_action": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+U"
+      }
+    }
+  },
+  "browser_action": {
+    "default_icon": "assets/icon-addon.svg",
+    "default_title": "Rentgen",
+    "default_popup": "components/toolbar/toolbar.html"
+  },
+  "icons": {
+    "16": "assets/icon-addon.svg",
+    "32": "assets/icon-addon.svg",
+    "64": "assets/icon-addon.svg"
+  },
+  "permissions": []
+}
